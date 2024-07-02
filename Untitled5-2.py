@@ -18,7 +18,7 @@ TODAY = date.today().strftime("%Y-%m-%d")
 
 st.title('Stock Forecast App')
 
-stocks = ('GOOG', 'AAPL', 'nvda', 'voo', 'META', 'XOM', 'CVX', 'TSLA', 'JPM', 'CRM', 'MA', 'AMD', 'REAX', 'COUR', 'IAS', 'YEXT', 'LZ', 'XPOF', 'CLOV', 'ASUR', 'IMMR', 'SMRT', 'SMCI', 'PAYO', 'SOFI', 'SOUN', 'MSCI', 'ORLY', 'IPAR', 'KNSL', 'GLOB', 'MTLS', 'ARDX', 'SERA', 'ICU', 'MTEX', 'LRMR', 'INLX', 'TME', 'CLVT', 'IQ', 'PAGS', 'FSR', 'PIRS', 'YYAI', 'CRKN', 'XOS', 'SLNH', 'BNTC', 'SNCE', 'SMTK', 'MULN', 'ONCT', 'BODI', 'BACK', 'BTTR', 'DTIL', 'VCNX', 'INO', 'TLIS', 'TBLT', 'CGC', 'AKTX', 'ADXN', 'ZVSA', 'CATX', 'VHC', 'ICU', 'MMAT', 'PRPO', 'NCMI', 'SIDU')
+stocks = ('GOOG', 'AAPL', 'nvda', 'voo', 'META', 'XOM', 'CVX', 'TSLA', 'JPM', 'CRM', 'MA', 'AMD', 'REAX', 'COUR', 'IAS', 'YEXT', 'LZ', 'XPOF', 'CLOV', 'ASUR', 'IMMR', 'SMRT', 'SMCI', 'PAYO', 'SOFI', 'SOUN', 'MSCI', 'ORLY', 'IPAR', 'KNSL', 'GLOB', 'MTLS', 'ARDX', 'SERA', 'ICU', 'MTEX', 'LRMR', 'INLX', 'TME', 'CLVT', 'IQ', 'PAGS', 'FSR', 'PIRS', 'YYAI', 'CRKN', 'XOS', 'SLNH', 'BNTC', 'SNCE', 'SMTK', 'MULN', 'ONCT', 'BODI', 'BACK', 'BTTR', 'DTIL', 'VCNX', 'INO', 'TLIS', 'TBLT', 'CGC', 'AKTX', 'ADXN', 'ZVSA', 'CATX', 'VHC', 'ICU', 'MMAT', 'PRPO', 'NCMI', 'SIDU', 'NKE')
 selected_stock = st.selectbox('Select dataset for prediction', stocks)
 
 n_years = st.slider('Days of prediction:', 1, 1826)
