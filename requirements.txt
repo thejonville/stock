@@ -2,4 +2,4 @@ yfinance
 prophet
 streamlit
 plotly
-numpy
+numpy==1.26.4
